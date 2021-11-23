@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Esta es una web dedicada al cuidado de los animales domésticos. También funcionamos como refugio y lugar de adopcion!">
+   <meta name="keywords"  content="ANIMALES, PERROS, GATOS, REFUGIO, LOMAS DE ZAMORA, ANIMAL, HOGAR">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="scss/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <title>HUELLITAS-BARIANDARAN</title>
+</head>
+
+<body>
+  <header>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active"><img src="images/logo.svg" width="15" height="15" /> Huellitas</a>
+      <a href="nosotros.html">NOSOTROS</a>
+      <a href="servicios.html">SERVICIOS</a>
+      <a href="separte.html">VOLUNTARIOS</a>
+      <a href="info.html">INFORMACION DE INTERES</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </header>
+  <section class="index">
+    <div class="div1">
+      <h1>NUESTRA AGENDA</h1>
+    </div>
+    <div class="grid-container">
+      <div class="bannerUno">
+        <p>Te dejamos nuestra agenda semanal para que puedas estar informado sobre nuestras actividades y trabajos</p>
+      </div>
+      <div class="martes">
+        <p>Martes</p>
+      </div>
+      <div class="lunes">
+        <p>Lunes</p>
+      </div>
+      <div class="sabado">
+        <p>Sabado</p>
+      </div>
+      <div class="miercoles">
+        <p>Miercoles</p>
+      </div>
+      <div class="jueves">
+        <p>Jueves</p>
+      </div>
+      <div class="viernes">
+        <p>Viernes</p>
+      </div>
+    </div>
+  </section>
+  <footer class=footer>
+    <ul>
+      <li style="color:rgb(0, 0, 0);">Av. Hipolito Yrigoyen 2500 Lomas de Zamora</li>
+      <li style="color:rgb(0, 0, 0);">info@huellitas.com.ar</li>
+      <li style="color:rgb(0, 0, 0);">4244 1234 / 4342 4342</li>
+    </ul>
+  </footer>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</body>
+
+</html>
