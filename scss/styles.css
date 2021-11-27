@@ -125,7 +125,6 @@ td {
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
   -ms-grid-rows: 0.4fr 5fr;
-      grid-template-rows: 0.4fr 5fr;
   grid-column-gap: 8px;
   grid-row-gap: 5px;
 }
@@ -185,7 +184,6 @@ td {
 
 .info {
   display: -ms-grid;
-  display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
   -ms-grid-rows: 0.4fr 5fr;
@@ -218,7 +216,6 @@ td {
 
 .separte {
   display: -ms-grid;
-  display: grid;
   -ms-grid-columns: (1fr);
       grid-template-columns: repeat(2, 1fr);
   -ms-grid-rows: (1fr);
@@ -419,6 +416,15 @@ td {
   .p{
     font-size:5vh;
   }
- 28px;
-  font-size: 1rem;
-}
+  .carousel-inner {
+    height: 50vw;
+  }
+  
+  .carousel img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
