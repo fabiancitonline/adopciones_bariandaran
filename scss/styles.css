@@ -18,21 +18,22 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 h2 {
   margin-top: 25px;
   color: purple;
   text-align: left;
-  font-size:8vh
+  font-size: 8vh;
 }
+
 h3 {
   color: purple;
   text-align: left;
   font-weight: bold;
-  font-size:6vh
+  font-size: 6vh;
 }
 
 .footer {
@@ -102,7 +103,7 @@ h1 {
   margin-top: 25px;
   color: purple;
   text-align: center;
-  font-size:10vh
+  font-size: 10vh;
 }
 
 table {
@@ -123,23 +124,27 @@ td {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   -ms-grid-rows: 0.4fr 5fr;
   grid-column-gap: 8px;
   grid-row-gap: 5px;
 }
 
 .div3 {
+  -ms-grid-row: 1;
   grid-row: 1;
   -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
   grid-column: 1;
   -ms-grid-column-span: 1;
   grid-area: 1 / 1 / 2 / 2;
 }
 
 .div4 {
+  -ms-grid-row: 2;
   grid-row: 2;
   -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
   grid-column: 1;
   -ms-grid-column-span: 1;
   grid-area: 2 / 1 / 3 / 2;
@@ -149,21 +154,23 @@ td {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   -ms-grid-rows: 0.4fr 5fr;
-      grid-template-rows: 0.4fr 5fr;
+  grid-template-rows: 0.4fr 5fr;
   grid-column-gap: 8px;
   grid-row-gap: 5px;
 }
 
 .div1 {
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
+  -ms-grid-row: 1;
   grid-row: 1;
   -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
   grid-column: 1;
   -ms-grid-column-span: 1;
   grid-area: 1 / 1 / 2 / 2;
@@ -171,12 +178,14 @@ td {
 
 .div2 {
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
+  -ms-grid-row: 2;
   grid-row: 2;
   -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
   grid-column: 1;
   -ms-grid-column-span: 1;
   grid-area: 2 / 1 / 3 / 2;
@@ -185,17 +194,19 @@ td {
 .info {
   display: -ms-grid;
   -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   -ms-grid-rows: 0.4fr 5fr;
-      grid-template-rows: 0.4fr 5fr;
+  grid-template-rows: 0.4fr 5fr;
   grid-column-gap: 8px;
   grid-row-gap: 5px;
   background-color: transparent;
 }
 
 .div5 {
+  -ms-grid-row: 1;
   grid-row: 1;
   -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
   grid-column: 1;
   -ms-grid-column-span: 1;
   grid-area: 1 / 1 / 2 / 2;
@@ -203,12 +214,14 @@ td {
 
 .div6 {
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
+  -ms-grid-row: 2;
   grid-row: 2;
   -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
   grid-column: 1;
   -ms-grid-column-span: 1;
   grid-area: 2 / 1 / 3 / 2;
@@ -216,59 +229,69 @@ td {
 
 .separte {
   display: -ms-grid;
-  -ms-grid-columns: (1fr);
-      grid-template-columns: repeat(2, 1fr);
-  -ms-grid-rows: (1fr);
-      grid-template-rows: repeat(2, 1fr);
+  -ms-grid-columns: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: 1fr;
+  grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
 
 .div7 {
+  -ms-grid-row: 1;
   grid-row: 1;
   -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
   grid-column: 1;
   -ms-grid-column-span: 1;
   grid-area: 1 / 1 / 2 / 2;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
 }
 
 .div8 {
   padding-top: 10px;
+  -ms-grid-row: 1;
   grid-row: 1;
   -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
   grid-column: 2;
   -ms-grid-column-span: 1;
   grid-area: 1 / 2 / 2 / 3;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
 }
 
 .div9 {
+  -ms-grid-row: 2;
   grid-row: 2;
+  -ms-grid-row: 2;
   grid-row: 2;
   -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
   grid-column: 1;
+  -ms-grid-column: 1;
   grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: 2 / 1 / 3 / 3;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
   font-weight: bold;
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
@@ -276,7 +299,9 @@ td {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -309,57 +334,85 @@ td {
 }
 
 .bannerUno {
+  -ms-grid-row: 1;
   grid-row: 1;
+  -ms-grid-column: 1;
   grid-column: 1;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
   -ms-grid-column-span: 4;
   grid-area: bannerUno;
   -ms-grid-column-align: center;
       justify-self: center;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
+  -ms-grid-row-align: center;
       align-self: center;
 }
 
 .martes {
+  -ms-grid-row: 2;
   grid-row: 2;
+  -ms-grid-column: 3;
   grid-column: 3;
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
   grid-area: noticiaTres;
   background-color: #73CAEF;
 }
 
 .lunes {
+  -ms-grid-row: 2;
   grid-row: 2;
+  -ms-grid-column: 1;
   grid-column: 1;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: noticiaDos;
   background-color: #89FFFB;
 }
 
 .sabado {
+  -ms-grid-row: 2;
   grid-row: 2;
-  -ms-grid-row-span: 2;
+  -ms-grid-column: 4;
   grid-column: 4;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 4;
   grid-area: noticiaCuatro;
   background-color: #41E2DD;
 }
 
 .miercoles {
+  -ms-grid-row: 3;
   grid-row: 3;
+  -ms-grid-column: 1;
   grid-column: 1;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
   grid-area: noticiaCinco;
   background-color: #50D8C8;
 }
 
 .jueves {
+  -ms-grid-row: 3;
   grid-row: 3;
+  -ms-grid-column: 2;
   grid-column: 2;
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
   grid-area: noticiaSeis;
   background-color: #53B4F4;
 }
 
 .viernes {
+  -ms-grid-row: 3;
   grid-row: 3;
+  -ms-grid-column: 3;
   grid-column: 3;
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
   grid-area: noticiaSiete;
   background-color: #89FFFB;
 }
@@ -379,8 +432,8 @@ td {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: relative;
 }
 
@@ -399,32 +452,37 @@ td {
   line-height: 28px;
   font-size: 1rem;
 }
+
 .video-responsive {
-	height: 0;
-	overflow: hidden;
-	padding-bottom: 56.25%;
-	padding-top: 30px;
-	position: relative;
-	}
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative;
+}
+
 .video-responsive iframe, .video-responsive object, .video-responsive embed {
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	}
-  .p{
-    font-size:5vh;
-  }
-  .carousel-inner {
-    height: 50vw;
-  }
-  
-  .carousel img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    height: auto;
-    max-width: 100%;
-  }
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.p {
+  font-size: 5vh;
+}
+
+.carousel-inner {
+  height: 50vw;
+}
+
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */
