@@ -328,9 +328,7 @@ td {
   -ms-flex-pack: stretch;
   justify-content: stretch;
   font-size: 1.5rem;
-      grid-template-areas: "bannerUno bannerUno bannerUno bannerUno"
- "noticiaDos noticiaDos noticiaTres noticiaCuatro"
- "noticiaCinco noticiaSeis noticiaSiete noticiaCuatro";
+      grid-template-areas: "bannerUno bannerUno bannerUno bannerUno" "noticiaDos noticiaDos noticiaTres noticiaCuatro" "noticiaCinco noticiaSeis noticiaSiete noticiaCuatro";
 }
 
 .bannerUno {
@@ -484,5 +482,18 @@ td {
   min-width: 100%;
   height: auto;
   max-width: 100%;
+}
+
+.errorBody {
+  background-size: 100% 100%;
+  margin: 10px;
+  min-height: 100vh;
+  background: black;
+}
+
+.errorText {
+  color: white;
+  font-size: 5vh;
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */
