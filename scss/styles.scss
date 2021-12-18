@@ -9,9 +9,7 @@ body {
   font-weight: 110 !important;
   margin: 10px;
   min-height: 100vh;
-  background: #22c1c3;
-  background: -webkit-gradient(linear, left bottom, left top, from(#22c1c3), to(#fdbb2d));
-  background: linear-gradient(0deg, #22c1c3 0%, #fdbb2d 100%);
+  background-color: #FFEBCD;
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -135,6 +133,7 @@ td {
   grid-column: 1;
   -ms-grid-column-span: 1;
   grid-area: 1 / 1 / 2 / 2;
+  font-size: 1.5rem;
 }
 
 .div4 {
@@ -296,7 +295,6 @@ td {
   -ms-grid-columns: 25%;
   grid-template-columns: repeat(4, 25%);
   -ms-grid-rows: 200px;
-  grid-template-rows: repeat(3, 200px);
   gap: 1px 1px;
   text-align: center;
   -webkit-box-pack: stretch;
@@ -318,6 +316,7 @@ td {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+      font-size: 1.5em;
 }
 
 .martes {
@@ -364,41 +363,7 @@ td {
   background-color: #89FFFB;
 }
 
-.contenedor {
-  max-width: 1000px;
-  width: 90%;
-  margin: 0 auto;
-}
 
-.tarjeta {
-  margin-top: 25px;
-  background-color: #cccccc;
-  border-radius: 15px;
-  padding: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: relative;
-}
-
-.tarjeta__img {
-  width: 25%;
-  height: 25%;
-  margin-right: 30px;
-}
-
-.tarjeta__titulo {
-  font-size: 1.5rem;
-  margin-bottom: 20px;
-}
-
-.tarjeta__parrafo {
-  line-height: 28px;
-  font-size: 1rem;
-}
 .video-responsive {
 	height: 0;
 	overflow: hidden;
@@ -440,4 +405,9 @@ background: black;
     font-size: 5vh;
     text-align: center;
   }
-  
+  .card{
+    margin: 10px;
+}
+.unite{
+  margin: 10px;
+}
